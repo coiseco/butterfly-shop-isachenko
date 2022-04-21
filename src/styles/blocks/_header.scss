@@ -2,6 +2,9 @@
   background-color: $color-dark;
   padding: 16px 0;
   color: #fff;
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 
 .header-inner {
@@ -41,6 +44,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
 .header-link:hover {
