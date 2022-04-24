@@ -15,28 +15,39 @@
 }
 
 .presentation-fade {
-  padding: 100px 0;
-
   display: flex;
+  justify-content: space-between;
+  padding: 100px 0 120px 0;
+}
 
+
+.figure-presentation {
+  position: relative;
+}
+
+.caption-desc {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding: 15px 0;
+  width: 100%;
+  color: #000;
+  background-color: rgba(000, 000, 000, .4);
+  text-align: center;
+}
+
+.figure-link {
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.figure-link:hover{
+  color: $color-red;
 }
 
 .presentation-fade-btn {
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  width: 33%;
-  background-color: $color-red;
-
-}
-
-.presentation-btn {
-  padding: 30px 80px;
-  color: #fff;
-  text-align: center;
-  border-radius: 8px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 42px;
-  line-height: 57px;
 }

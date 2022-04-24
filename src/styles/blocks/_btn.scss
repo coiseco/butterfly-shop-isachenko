@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  width: 497px;
+  max-height: 104px;
+  min-height: 103px;
+  padding: 30px 42px;
+  text-align: center;
+  background-color: $color-red;
+  color: #fff;
+  text-decoration: none;
+  font-size: 42px;
+  line-height: 57px;
+  border-radius: 6px;
+}
+
+.btn-purchaise {
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  cursor: pointer;
+  border: none;
+}

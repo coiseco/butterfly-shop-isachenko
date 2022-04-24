@@ -1,10 +1,11 @@
 .header {
   background-color: $color-dark;
-  padding: 16px 0;
   color: #fff;
-  position: sticky;
+  position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
 }
 
 .header-inner {

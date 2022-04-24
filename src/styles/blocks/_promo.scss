@@ -1,9 +1,11 @@
 .promo {
+  margin-top: 90px;
   padding: 214px 0;
   background-image: url(/images/promo.jpg);
   background-size: cover;
   color: #fff;
   text-align: center;
+
 }
 
 .promo-inner {
@@ -14,7 +16,6 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 

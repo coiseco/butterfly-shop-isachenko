@@ -1,3 +1,28 @@
-.purchaise-inner{
+.purchaise {
+  padding: 130px 0;
+  background-color: rgba(51, 51, 51, .1);
+}
+
+.purchaise-inner {
   @include inner;
 }
+
+
+.purchaise-title {
+  padding-bottom: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.purchaise-text {
+  margin-bottom: 90px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}
+

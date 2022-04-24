@@ -35,12 +35,8 @@
       <div class="promo-inner">
         <div class="promo-wrap">
           <h1 class="promo-ttl">Индивидуальный пошив галсутков-бабочек</h1>
-
-          <a href="#" class="promo-btn">Заказать бабочку</a>
+          <a href="#" class="btn">Заказать бабочку</a>
         </div>
-
-
-
       </div>
     </section>
     <section class="presentation">
@@ -48,39 +44,56 @@
         <h1 class="presentation-title">Наши работы</h1>
         <div class="presentation-fade">
           <div class="presentation-item">
-            <a href="#" class="presentation-links">бабочка такая</a>
+            <figure class="figure-presentation">
+              <img src="/images/bluBatterfly.jpg" alt="" class="presentation-img">
+              <figcaption class="caption-desc"><a href="#" class="figure-link">Бабочка такая</a></figcaption>
+            </figure>
           </div>
           <div class="presentation-item">
-            <a href="#" class="presentation-links">бабочка растакая</a>
+            <figure class="figure-presentation">
+              <img src="/images/portmone.jpg" alt="" class="presentation-img">
+              <figcaption class="caption-desc"><a href="#" class="figure-link">Бабочка растакая</a></figcaption>
+            </figure>
           </div>
           <div class="presentation-item">
-            <a href="#" class="presentation-links">бабочка сякая</a>
+            <figure class="figure-presentation">
+              <img src="/images/menWithButterfly.jpg" alt="" class="presentation-img">
+              <figcaption class="caption-desc"><a href="#" class="figure-link">Бабочка сякая</a></figcaption>
+            </figure>
           </div>
           <div class="presentation-item">
-            <a href="#" class="presentation-links">бабочка кривая </a>
+            <figure class="figure-presentation">
+              <img src="/images/cat.jpg" alt="" class="presentation-img">
+              <figcaption class="caption-desc"><a href="#" class="figure-link">Кривая</a></figcaption>
+            </figure>
           </div>
         </div>
         <div class="presentation-fade-btn">
-          <a href="#" class="presentation-btn">все бабочки</a>
+          <a href="#" class="btn">Все бабочки</a>
         </div>
-
       </div>
       </div>
     </section>
     <section class="purchaise">
       <div class="purchaise-inner">
-        <div class="purchaise-fade">
-          <h2 class="purchaise-title">закажи пошив</h2>
+          <h2 class="purchaise-title">Закажи пошив</h2>
           <p class="purchaise-text">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи.
             На встрече он снимет мерки и поможет обределиться с тканью.</p>
-          <div class="purchaise-form">
-            <form action="#" method="post">
-              <p class="form-text"><label for="name">Ваше имя</label><input type="text" id="name"></p>
-              <p class="form-text"><label for="phone">телефон</label><input type="tel" id="tel"></p>
-              <p class="form-btn"><input type="submit" value="заказать"></p>
-            </form>
-          </div>
+          <form action="#" method="post" class="form">
+            <div class="form-field">
+              <label for="name" class="form-label">Ваше имя</label>
+              <input id="name" name="name" type="text" class="form-input" placeholder="Иван Иванов">
+            </div>
+            <div class="form-field">
+              <label for="phone" class="form-label">Телефон</label>
+              <input id="phone" name="phone" type="tel" class="form-input" placeholder="+78008888888">
+            </div>
+            <div class="form-field">
+              <button class="btn btn-purchaise" type="submit">Заказать</button>
+            </div>
+          </form>
         </div>
+      </div>
       </div>
     </section>
   </main>
@@ -88,18 +101,20 @@
     <div class="footer-inner">
       <div class="footer-fade">
         <h2 class="footer-title">Butterfly</h2>
-        <a href="+78128008080" class="footer-tel">+7 812 800-80-80</a>
-        <ul class="footer-social">
-          <li class="footer-item">
-            <a href="#" class="footer-links"><img src="/www/images/uil_instagram-alt.svg" alt=""></a>
-          </li>
-          <li class="footer-item">
-            <a href="#" class="footer-links"><img src="/www/images/entypo-social_facebook.svg" alt=""></a>
-          </li>
-          <li class="footer-item">
-            <a href="#" class="footer-links"><img src="/www/images/cib_telegram.svg" alt=""></a>
-          </li>
-        </ul>
+        <div class="footer-big-fade">
+          <a href="+78128008080" class="footer-tel">+7 812 800-80-80</a>
+          <ul class="footer-social">
+            <li class="footer-item">
+              <a href="#" class="footer-links"><img src="/images/uil_instagram-alt.svg" alt=""></a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-links"><img src="/images/entypo-social_facebook.svg" alt=""></a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-links"><img src="/images/cib_telegram.svg" alt=""></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
