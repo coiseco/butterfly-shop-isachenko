@@ -1,11 +1,13 @@
 .promo {
-  margin-top: 90px;
+  width: inherit;
   padding: 214px 0;
-  background-image: url(/images/promo.jpg);
-  background-color: rgba(51, 51, 51, 0.4);
+  background: linear-gradient(0deg, rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4)), url(/images/promo.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
-  text-align: center;
+  // text-align: center
+
+
 
 }
 
@@ -14,17 +16,33 @@
 }
 
 .promo-wrap {
-  margin: 0 auto;
+  // width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
 
 .promo-ttl {
+  text-align: center;
   font-weight: 600;
   font-size: 72px;
   line-height: 98px;
   margin-bottom: 100px;
+
+
+  @media (max-width:$tablet-max) {
+    text-align: center;
+    font-size: 54px;
+    line-height: 74px;
+
+  }
+
+
+  @media (max-width:$mobile-max) {
+    text-align: center;
+    font-size: 32px;
+    line-height: 44px;
+  }
 
 }
 

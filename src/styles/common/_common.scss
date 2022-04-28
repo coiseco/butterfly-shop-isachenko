@@ -6,8 +6,12 @@
 
 body {
   font-family: $font;
-  margin:0;
-  padding: 0;
+  padding-top: 90px;
+
+
+  @media (max-width:$mobile-max) {
+    padding-top: 70px;
+  }
 }
 
 
