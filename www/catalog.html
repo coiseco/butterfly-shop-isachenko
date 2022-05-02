@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый проект</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
 
 <body>
 
@@ -20,21 +19,23 @@
     <div class="header-inner">
       <div class="header-wrap">
         <a href="/index.html" class="header-title">Butterfly</a>
-        <ul class="header-nav">
-          <li class="header-item">
-            <a href="/catalog.html" class="header-link">Каталог</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Отзывы</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">Контакты</a>
-          </li>
-          <li class="header-item">
-            <a href="#" class="header-link">faq</a>
-          </li>
-        </ul>
-        <button class="burger">menu</button>
+        <nav class="menu j-menu">
+          <ul class="header-nav">
+            <li class="header-item">
+              <a href="/catalog.html" class="header-link">Каталог</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Отзывы</a>
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-link">Контакты</a>
+            </li>
+            <li class="header-item">
+              <a href="faq.html" class="header-link">faq</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger j-burger">menu</button>
       </div>
     </div>
   </header>
@@ -144,7 +145,7 @@
               <label for="phone" class="form-label">Телефон</label>
               <input id="phone" name="phone" type="tel" class="form-input" placeholder="+78008888888">
             </div>
-            <div class="form-field">
+            <div class="form-field btn-field">
               <button class="btn btn-purchaise" type="submit">Заказать</button>
             </div>
           </form>

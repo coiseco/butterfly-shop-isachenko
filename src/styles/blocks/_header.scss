@@ -69,7 +69,8 @@
   }
 
   @media (max-width:$mobile-max) {
-    flex-direction: column;
+    // flex-direction: column;
+    display: block;
     text-align: center;
   }
 }
