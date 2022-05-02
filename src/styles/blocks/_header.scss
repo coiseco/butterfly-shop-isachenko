@@ -46,6 +46,21 @@
   }
 }
 
+.menu{
+  @media (min-width:$desktop) {
+    display: block !important;
+  }
+
+  @media (max-width:$mobile-max) {
+    display: none;
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    width: 100%;
+    background-color: $color-dark;
+  }
+}
+
 .header-nav {
   display: flex;
 
@@ -54,11 +69,9 @@
   }
 
   @media (max-width:$mobile-max) {
-    display: none;
     flex-direction: column;
     text-align: center;
   }
-
 }
 
 .header-item {

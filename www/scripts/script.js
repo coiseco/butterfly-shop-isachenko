@@ -1,1 +1,14 @@
-console.log('script work!');
+$(document).ready(function () {
+
+  $('.j-burger').on('click' , function() {
+
+    $('.j-menu').slideToggle();
+  })
+
+
+
+
+
+
+
+})
