@@ -22,6 +22,21 @@ $(document).ready(function () {
   })
 
 
+   //tabs
 
+   $('.j-tabs-link').on('click' , function (event){
+    event.preventDefault();
+
+    let index = $(this).index('.j-tabs-link');
+
+
+    $('.j-tabs-link').removeClass('active');
+    $(this).addClass('active');
+
+    $('.j-contact-item').removeClass('active');
+    $('.j-contact-item').eq(index).addClass('active');
+
+
+  });
 
 })
