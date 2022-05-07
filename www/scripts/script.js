@@ -39,4 +39,38 @@ $(document).ready(function () {
 
   });
 
+  //works filter
+  $('.j-nav-link').on('click' , function (e) {
+    e.preventDefault();
+
+    let dataFilter = $(this).data('filter');
+
+    $('.j-nav-link').removeClass('active');
+    $(this).addClass('active');
+
+    if (dataFilter === 'all') {
+      $('.j-works-item').show();
+      return;
+    }
+
+    console.log(dataFilter);
+
+
+    $('.j-works-item').each(function() {
+
+      let dataType = $(this).data('type');
+
+      if (dataType === dataFilter) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+
+    });
+
+  });
+
+  //slicker
+  $('.j-carousel').slick();
+
 })

@@ -1,0 +1,23 @@
+.rewiews{
+  margin: 0 auto;
+}
+
+.rewiews-inner {
+  @include inner;
+}
+
+.rewiews-title {
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.slick-current{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rewiews-description{
+  display: flex;
+  flex-direction: column;
+}
