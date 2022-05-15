@@ -1,4 +1,4 @@
-.rewiews{
+.rewiews {
   margin: 0 auto;
 }
 
@@ -7,17 +7,67 @@
 }
 
 .rewiews-title {
+  margin-top: 130px;
   font-size: 64px;
   line-height: 87px;
   text-align: center;
 }
 
-.slick-current{
+.slick-initialized .slick-slide {
+  margin: 80px 0 130px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-.rewiews-description{
-  display: flex;
-  flex-direction: column;
+
+
+.carousel {
+
+  padding: 0 50px;
+
+  .slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/icon-next.svg');
+    background-size: contain;
+    font-size: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+  }
+
+
+  .slick-prev {
+    left: 0;
+  }
+
+  .slick-next {
+    right: 0;
+    transform: rotate(180deg);
+  }
+
+}
+
+.rewiews-description {
+  margin-left: 22px;
+  width: 540px;
+}
+
+.description-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  margin-bottom: 40px;
+}
+
+.description-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
 }

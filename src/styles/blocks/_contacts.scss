@@ -18,6 +18,11 @@
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 50px;
+
+  @media (max-width:$mobile-max) {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 .tabs-item {
@@ -40,6 +45,21 @@
   display: none;
 
   &.active {
-    display: block;
+    display: flex;
+
+  }
+}
+
+.contacts-item-map {
+  margin-left: 145px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 33px;
+
+  &:last-child{
+    margin-bottom: 0;
   }
 }
